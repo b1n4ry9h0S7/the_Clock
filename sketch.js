@@ -1,11 +1,11 @@
 function setup() {
-    createCanvas(window.innerWidth,window.innerHeight);
+    createCanvas(1000,1000);
     angleMode(DEGREES);
 }
 
 function draw() {
     background(0);
-    translate(innerWidth/2, innerHeight/2);
+    translate(1000/2,1000/2);
     rotate(-90);
     let h = hour();
     let m = minute();
